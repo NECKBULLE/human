@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header and Footer with Images</title>
+<style>/* General Reset */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.header-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.fashion img {
+ position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("sydney-sweeney-british-gq-tn.jpg")no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    transition: 0.5s;
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="man.jpg" alt="Header Image" class="header-image">
+      <h1>Welcome to My Website</h1>
+    </div>
+  </header>
+
+  <main>
+    <p>This is the main content of the page.</p>
+    <div class="fashion">
+   
+    <img src="sydney-sweeney-british-gq-tn.jpg" alt="">
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <img src="woman.jpg" alt="Footer Image" class="footer-image">
+      <p>&copy; 2025 My Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
